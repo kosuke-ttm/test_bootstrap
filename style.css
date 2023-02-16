@@ -1,0 +1,7 @@
+/* .biiiiig {font-size: 150px; } */
+.hero-background {
+background-image: url(./top2.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="jp" style="scroll-padding-top:50px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>camel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./mylogo.jpg" height="50"></a>
+            <span class="fs-1 text-primary">CAMEL</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-bold" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-2">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#hero">ホーム</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#feature">会社の特徴</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#showcases">実用例</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                </ul>
+                <a class="btn btn-dark btn-sm text-white" href="#entry">採用について</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="bg-white py-5" id="hero">
+        <div class="hero-background">
+            <div style="background-color: rgba(0, 0, 0, 0.5);">
+                <div class="text-white vh-100 text-center align-items-center d-flex">
+                    <div class="container overflow-hidden">
+                        <h1 class="display-1">PREDECT FUTURE</h1>
+                        <p class="lead">〜未来の経済をITの技術を使って予測する〜</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOWCASES -->
+    <section class="bg-light py-5" id="feature">
+        
+        <div class="container overflow-hidden">
+            
+            <div class="row mb-5 align-items-center">
+                <h1>About Us</h1>
+                <div class="col-12" data-aos="fade-right">
+                    <div class="col-lg-6 order-lg-1">
+                        <img class="img-fluid"
+                            src="./tech.jpg">
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-left">
+                    <div class="col-lg-6 order-lg-2">
+                        <span class="display-3 text-primary">01</span>
+                        <h3>高い技術力</h3>
+                        <p>網羅的な説明が書かれたコンテンツではなく、映画のようにこころを動かすコンテンツを目指しています。シナリオ作りから検証を重ねて作成しています。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 align-items-center">
+                <div class="col-12" data-aos="fade-right">
+                    <div class="col-lg-6 order-lg-2">
+                        <img class="img-fluid"
+                            src="./future.jpg">
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-left">
+                    <div class="col-lg-6 order-lg-1">
+                        <span class="display-3 text-primary">02</span>
+                        <h3>持続可能な技術</h3>
+                        <p>数十年の間に「ものづくり製品」から「ウェブサービス」へ時代が一変しましたが、更に時代は変化し続けます。画面の中だけの世界ではなく、リアルな世界に作用するものにこだわっています。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 order-lg-1">
+                    <div class="col-12" data-aos="fade-right">
+                        <img class="img-fluid"
+                            src="service.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-2">
+                <div class="col-12" data-aos="fade-left">
+                    <span class="display-3 text-primary">03</span>
+                    <h3>サービスの提供</h3>
+                    <p>「ものものテック」では創業以来、毎年多数のリアルなハンズオンを企業・自治体・大学・各種イベント等で実施しています。リアルな教育でのエッセンスや最適化された難易度で皆さんの学びを加速します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+<section class="bg-light p-5" id="showcases">
+    <div class="container overflow-hidden">
+        <div class="row text-center">
+            <h3 class="mb-4">実用例
+            </h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="bg-white border shadow p-4 h-100">
+                    <img class="mb-3"
+                        src="./ghouse.jpg"
+                        width="300">
+                    <p class="border-bottom">グリーンハウスの温度管理</p>
+                    <p>本ページはサンプルであり、サポートメンバーは架空の人物です。</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="bg-white border shadow p-4 h-100">
+                    <img class="mb-3"
+                        src="./virus.jpg"
+                        width="300">
+                    <p class="border-bottom">感染経路の分析</p>
+                    <p>本ページはサンプルであり、サポートメンバーは架空の人物です。</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="bg-white border shadow p-4 h-100">
+                    <img class="mb-3"
+                        src="./camera.jpg"
+                        width="300">
+                    <p class="border-bottom">カメラによる分析</p>
+                    <p>本ページはサンプルであり、サポートメンバーは架空の人物です。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- CTA -->
+    <section class="bg-info py-5 text-white" id="entry">
+        <div class="container overflow-hidden">
+            <div data-aos="zoom-in">
+                <div class="row text-center">
+                    <div class="col">
+                        <h1>採用情報
+                        </h1>
+                        <h2 class="py-5">あなたのアイディアを形にしよう！</h2>
+                        <p class="lead">専門的な知識がなくても歓迎</p>
+                        <p class="lead py-3">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bg-light">
+        <!-- styleとpreserveAspectRatioを追加 -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0dcaf0" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,69.3C384,43,480,53,576,85.3C672,117,768,171,864,176C960,181,1056,139,1152,117.3C1248,96,1344,96,1392,96L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </div>
+
+
+    <!-- PRICE -->
+    <section class="bg-light py-5" id="price">
+        <div class="container overflow-hidden">
+            <div class="row text-center">
+                <h3 class="mb-4"></h3>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">
+                    <div data-aos="zoom-in">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-header p-3 bg-secondary">
+                                <h4 class="my-0 fw-normal text-white">コンサルト系
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="mt-3 mb-4">
+                                    <li>顧客のニーズを収集</li>
+                                    <li>事務</li>
+                                    <li>アンケートの実施</li>
+                                    <li>エンジニアのサポート</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-secondary">採用ページへ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div data-aos="zoom-in">
+                        <div class="card mb-4 shadow-sm border-primary">
+                            <div class="card-header py-3 border-primary bg-primary">
+                                <h4 class="my-0 fw-normal text-white">技術系</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="mt-3 mb-4">
+                                    <li>プログラムの作成</li>
+                                    <li>エンジニアリング</li>
+                                    <li>コンサルトとの連携</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">採用ページへ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div data-aos="zoom-in">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-header py-3 bg-success">
+                                <h4 class="my-0 fw-normal text-white">クリエイティブ系</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="mt-3 mb-4">
+                                    <li>gaiyou</li>
+                                    <li><i class="text-success"></i>全ての学習コンテンツ閲覧</li>
+                                    <li><i class="bi-check-lg text-success"></i>講師による講義</li>
+                                    <li><i class="bi-check-lg text-success"></i>メンターによるサポート</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-success">採用ページへ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FAQ -->
+    <section class="bg-white py-5" id="faq">
+        <div class="container overflow-hidden">
+            <div class="row text-center">
+                <h3 class="mb-4 text-info">FAQ</h3>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-3">
+                    <div class="col-12" data-aos="zoom-in-right">
+                        <img class="img-fluid"
+                            src="./faq.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="col-12" data-aos="zoom-in-left">
+                        <div class="accordion" id="accordionFAQ">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                        <p>Q. 採用されるための条件はなんですか？</p>
+                                    </button>
+                                </h2>
+                                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                                    data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        A. 最低限のパソコンスキルがあれば良いです．詳しくは採用ページをご覧ください．
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        <p>Q. 給料について教えてください</p>
+                                    </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                    data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        A. 初年収は大学卒は●●円，大学院卒は✖︎✖︎円で，成果によって変動します．
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        <p>Q. 残業はありますか?</p>
+                                    </button>
+                                </h2>
+                                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                    data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body">
+                                        A. ありません．もし，残業が発生した場合は労働基準法に応じて●●●．
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="py-3 bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col"><a href="https://monomonotech.jp/" class="text-decoration-none text-white">&copy;
+                        ものものテック</a></div>
+                <div class="col text-end"><a href="#" class="text-decoration-none text-white"><i
+                            class="bi bi-chevron-up"></i> Back to top</a></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
